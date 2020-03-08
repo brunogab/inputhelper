@@ -1,0 +1,22 @@
+{
+	"name": "brunogab/inputhelper",
+	"description": "simple helper for sanitize and auto type-casting input data for php",
+	"keywords": ["input filter", "custom input filter", "sanitation", "auto type-casting"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Brunner Gabor",
+			"email": "brunner.gabor.it@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brunogab\\InputHelper\\": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}

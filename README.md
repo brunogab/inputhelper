@@ -31,11 +31,18 @@ or add to your composer.json and run `composer update`:
 > Bool value check has a higher priority `by auto type-casting`:<br>
 >
 > - `1 is bool-true (not integer)`
+> - `'1' is bool-true (not string)`
+> - `'true' is bool-true (not string)`
+> - `'on' is bool-true (not string)`
+> - `'yes' is bool-true (not string)`
+
 > - `0 is bool-false (not integer)`
-> - `on is bool-true (not string)`
-> - `off is bool-false (not integer)`
-> - `null is bool-false (not empty)`
-> - `empty is bool-false (not empty)`
+> - `'0' is bool-false (not string)`
+> - `'false' is bool-false (not string)`
+> - `'off' is bool-false (not string)`
+> - `'no' is bool-false (not string)`
+> - `null is bool-false (not null)`
+> - `'' is bool-false (not empty)`
 
 - Inputs must be Array
 - Filters can be String or Array or Closure or empty
@@ -58,6 +65,7 @@ $inputs = [
 	'col_bool_true' => 'true',
 	'col_bool_on' => 'on',
 	'col_bool_yes' => 'yes',
+	
 	'col_bool_0' => '0',
 	'col_bool_0_0' => 0,
 	'col_bool_false' => 'false',

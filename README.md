@@ -11,7 +11,7 @@ The most sanitizer loop your filters and apply it on input-data. `This helper:`
 Run `composer command`:
 
 ```
-composer require brunogab/inputhelper: "dev-master"
+composer require brunogab/inputhelper
 ```
 
 or add to your composer.json and run `composer update`:
@@ -19,7 +19,7 @@ or add to your composer.json and run `composer update`:
 ```json
 {
 	"require": {
-		"brunogab/inputhelper": "dev-master"
+		"brunogab/inputhelper": "^1.0"
 	}
 }
 ```

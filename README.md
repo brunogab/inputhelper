@@ -9,7 +9,7 @@ Sanitizer, Filter, Custom Filter, Hepler, Type-Casting for Inputs
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#useage)
+- [Usage](#usage)
 - [Inputs](#inputs)
 - [Filters](#filters)
 - [Keys](#keys)
@@ -164,8 +164,6 @@ $keys = [
 ## Example
 
 > see in example.php
-
-Automatic Type-Casting for Boolean Values
 
 ```php
 /** Automatic Type-Casting for Boolean Values */

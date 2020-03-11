@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1583677697">
-  <project timestamp="1583677697">
+<coverage generated="1583943977">
+  <project timestamp="1583943977">
     <package name="Brunogab\InputHelper\Filters">
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\BoolFilter.php">
         <class name="Brunogab\InputHelper\Filters\BoolFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="13" type="stmt" count="1"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="13" type="stmt" count="2"/>
         <metrics loc="15" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\FloatFilter.php">
@@ -23,103 +23,122 @@
         <class name="Brunogab\InputHelper\Filters\IntFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="13" type="stmt" count="3"/>
-        <line num="14" type="stmt" count="3"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="13" type="stmt" count="9"/>
+        <line num="14" type="stmt" count="9"/>
         <metrics loc="16" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\LowerFilter.php">
         <class name="Brunogab\InputHelper\Filters\LowerFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="2" crap="2" count="2"/>
-        <line num="13" type="stmt" count="2"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="13" type="stmt" count="1"/>
         <metrics loc="15" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\StringFilter.php">
         <class name="Brunogab\InputHelper\Filters\StringFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="16" type="stmt" count="9"/>
         <metrics loc="18" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\TrimFilter.php">
         <class name="Brunogab\InputHelper\Filters\TrimFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="14" type="stmt" count="6"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="14" type="stmt" count="5"/>
         <metrics loc="16" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
       <file name="C:\wamp64\www\github-public\inputhelper\src\Filters\UpperFilter.php">
         <class name="Brunogab\InputHelper\Filters\UpperFilter" namespace="Brunogab\InputHelper\Filters">
           <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="11" type="method" name="do" visibility="public" complexity="2" crap="2" count="2"/>
-        <line num="13" type="stmt" count="2"/>
+        <line num="11" type="method" name="do" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="13" type="stmt" count="3"/>
         <metrics loc="15" ncloc="11" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
     <package name="Brunogab\InputHelper">
       <file name="C:\wamp64\www\github-public\inputhelper\src\InputHelper.php">
         <class name="Brunogab\InputHelper\InputHelper" namespace="Brunogab\InputHelper">
-          <metrics complexity="23" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="45" elements="51" coveredelements="51"/>
+          <metrics complexity="38" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="63" elements="70" coveredelements="70"/>
         </class>
-        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="10"/>
-        <line num="16" type="stmt" count="10"/>
-        <line num="36" type="method" name="run" visibility="public" complexity="10" crap="10" count="10"/>
-        <line num="38" type="stmt" count="10"/>
-        <line num="39" type="stmt" count="10"/>
-        <line num="41" type="stmt" count="10"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="10"/>
-        <line num="49" type="stmt" count="10"/>
-        <line num="50" type="stmt" count="1"/>
-        <line num="51" type="stmt" count="9"/>
-        <line num="52" type="stmt" count="3"/>
-        <line num="56" type="stmt" count="10"/>
-        <line num="57" type="stmt" count="10"/>
-        <line num="58" type="stmt" count="8"/>
-        <line num="62" type="stmt" count="10"/>
-        <line num="64" type="stmt" count="10"/>
-        <line num="65" type="stmt" count="2"/>
-        <line num="68" type="stmt" count="9"/>
-        <line num="70" type="stmt" count="9"/>
-        <line num="71" type="stmt" count="9"/>
-        <line num="74" type="stmt" count="1"/>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="16" type="stmt" count="14"/>
+        <line num="42" type="method" name="run" visibility="public" complexity="19" crap="19" count="14"/>
+        <line num="44" type="stmt" count="14"/>
+        <line num="45" type="stmt" count="14"/>
+        <line num="46" type="stmt" count="14"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="14"/>
+        <line num="57" type="stmt" count="13"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="13"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="66" type="stmt" count="13"/>
+        <line num="67" type="stmt" count="4"/>
+        <line num="68" type="stmt" count="4"/>
+        <line num="69" type="stmt" count="4"/>
+        <line num="71" type="stmt" count="4"/>
+        <line num="72" type="stmt" count="3"/>
         <line num="75" type="stmt" count="1"/>
-        <line num="82" type="stmt" count="10"/>
-        <line num="84" type="stmt" count="10"/>
-        <line num="93" type="method" name="isClosure" visibility="protected" complexity="1" crap="1" count="10"/>
-        <line num="95" type="stmt" count="10"/>
-        <line num="104" type="method" name="createClassName" visibility="protected" complexity="1" crap="1" count="9"/>
-        <line num="106" type="stmt" count="9"/>
-        <line num="116" type="method" name="getKeys" visibility="private" complexity="5" crap="5" count="10"/>
-        <line num="118" type="stmt" count="10"/>
-        <line num="119" type="stmt" count="10"/>
-        <line num="120" type="stmt" count="2"/>
-        <line num="121" type="stmt" count="1"/>
-        <line num="124" type="stmt" count="2"/>
-        <line num="125" type="stmt" count="2"/>
-        <line num="126" type="stmt" count="2"/>
-        <line num="130" type="stmt" count="2"/>
-        <line num="133" type="stmt" count="10"/>
-        <line num="142" type="method" name="calculateType" visibility="public" complexity="5" crap="5" count="4"/>
-        <line num="144" type="stmt" count="4"/>
-        <line num="146" type="stmt" count="4"/>
-        <line num="147" type="stmt" count="1"/>
-        <line num="148" type="stmt" count="4"/>
-        <line num="149" type="stmt" count="3"/>
-        <line num="150" type="stmt" count="3"/>
-        <line num="151" type="stmt" count="1"/>
-        <line num="152" type="stmt" count="2"/>
-        <line num="153" type="stmt" count="2"/>
-        <line num="155" type="stmt" count="4"/>
-        <metrics loc="157" ncloc="95" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="45" elements="51" coveredelements="51"/>
+        <line num="76" type="stmt" count="1"/>
+        <line num="79" type="stmt" count="4"/>
+        <line num="85" type="stmt" count="14"/>
+        <line num="86" type="stmt" count="10"/>
+        <line num="87" type="stmt" count="10"/>
+        <line num="88" type="stmt" count="9"/>
+        <line num="91" type="stmt" count="10"/>
+        <line num="92" type="stmt" count="10"/>
+        <line num="93" type="stmt" count="10"/>
+        <line num="96" type="stmt" count="10"/>
+        <line num="97" type="stmt" count="10"/>
+        <line num="98" type="stmt" count="1"/>
+        <line num="100" type="stmt" count="10"/>
+        <line num="102" type="stmt" count="10"/>
+        <line num="103" type="stmt" count="10"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="14"/>
+        <line num="117" type="stmt" count="14"/>
+        <line num="126" type="method" name="explode" visibility="private" complexity="1" crap="1" count="11"/>
+        <line num="128" type="stmt" count="11"/>
+        <line num="137" type="method" name="isClosure" visibility="private" complexity="1" crap="1" count="10"/>
+        <line num="139" type="stmt" count="10"/>
+        <line num="148" type="method" name="createClassName" visibility="private" complexity="1" crap="1" count="14"/>
+        <line num="150" type="stmt" count="14"/>
+        <line num="160" type="method" name="getKeys" visibility="private" complexity="10" crap="10" count="14"/>
+        <line num="162" type="stmt" count="14"/>
+        <line num="163" type="stmt" count="14"/>
+        <line num="165" type="stmt" count="6"/>
+        <line num="166" type="stmt" count="2"/>
+        <line num="168" type="stmt" count="1"/>
+        <line num="171" type="stmt" count="1"/>
+        <line num="176" type="stmt" count="4"/>
+        <line num="177" type="stmt" count="1"/>
+        <line num="180" type="stmt" count="4"/>
+        <line num="181" type="stmt" count="4"/>
+        <line num="182" type="stmt" count="3"/>
+        <line num="186" type="stmt" count="4"/>
+        <line num="189" type="stmt" count="12"/>
+        <line num="198" type="method" name="calculateType" visibility="private" complexity="5" crap="5" count="10"/>
+        <line num="200" type="stmt" count="10"/>
+        <line num="202" type="stmt" count="10"/>
+        <line num="203" type="stmt" count="2"/>
+        <line num="204" type="stmt" count="10"/>
+        <line num="205" type="stmt" count="9"/>
+        <line num="206" type="stmt" count="10"/>
+        <line num="207" type="stmt" count="1"/>
+        <line num="208" type="stmt" count="9"/>
+        <line num="209" type="stmt" count="9"/>
+        <line num="211" type="stmt" count="10"/>
+        <metrics loc="213" ncloc="122" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="63" elements="70" coveredelements="70"/>
       </file>
     </package>
-    <metrics files="8" loc="268" ncloc="172" classes="8" methods="13" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="54" elements="67" coveredelements="67"/>
+    <metrics files="8" loc="324" ncloc="199" classes="8" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="72" coveredstatements="72" elements="86" coveredelements="86"/>
   </project>
 </coverage>

@@ -132,7 +132,7 @@ $keys = ''; //Result: (array) Inputs
 Keys can be String:
 
 ```php
-$keys = 'key_a'; //key_a value will be returned, Result: (string) "VALUE_A"
+$keys = 'key_a'; //key_a value will be returned, Result: inputs['key_a']
 ```
 
 > Notice: <br>
@@ -141,7 +141,7 @@ $keys = 'key_a'; //key_a value will be returned, Result: (string) "VALUE_A"
 Keys can be String with Pipe:
 
 ```php
-$keys = 'key_a|key_b'; //key_a and key_b value will be returned, Result: array("VALUE_A","VALUE_B")
+$keys = 'key_a|key_b'; //key_a and key_b value will be returned, Result: array (inputs['key_a'], inputs['key_b'])
 ```
 
 > Notice: <br>
@@ -155,7 +155,7 @@ $keys = [
 	'key_b',
 	'key_invalid', //not valid key -> will be ignored
 ];
-//Result: array("VALUE_A","VALUE_B")
+//Result: array (inputs['key_a'], inputs['key_b'])
 ```
 
 > Notice: <br>
